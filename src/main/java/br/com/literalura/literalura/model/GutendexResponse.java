@@ -39,4 +39,14 @@ public class GutendexResponse {
     public void setResults(List<Book> results) {
         this.results = results;
     }
+
+    @Override
+    public String toString() {
+        return "GutendexResponse{" +
+                "count=" + count +
+                ", next=" + next + '\'' +
+                ", previous=" + previous + '\'' +
+                ", results=" + results +
+                '}';
+    }
 }
